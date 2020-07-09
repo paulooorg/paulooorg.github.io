@@ -1,0 +1,49 @@
+baseURL = "https://paulooorg.github.io/"
+#baseURL = "http://localhost:8080/"
+languageCode = "en-us"
+title = "Paulooorg"
+theme = "hugo-ink"
+paginate = 5
+publishdir = "../"
+
+[params]
+    subtitle = ":)"
+
+    # Optional 64x64 avatar image.
+	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+
+    mode = "auto" # "dark" or "auto"
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/paulooorg"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/goncalvesrpaulo/"
+
+[taxonomies]
+   tag = "tags"
