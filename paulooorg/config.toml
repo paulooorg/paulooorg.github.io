@@ -5,6 +5,7 @@ title = "Paulooorg"
 theme = "hugo-ink"
 paginate = 5
 publishdir = "../"
+googleAnalytics = "UA-172082526-1"
 
 [params]
     subtitle = ":)"
