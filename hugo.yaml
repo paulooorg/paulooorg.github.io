@@ -82,17 +82,21 @@ params:
   homeInfoParams:
     Title: "Oi, eu sou o Paulo \U0001F44B"
     Content: >
-          software developer at [@compass.uol](https://www.linkedin.com/company/compass-uol)
+          software engineer at [@mercadolivre](https://www.linkedin.com/company/mercadolivre-com/)
 
   socialIcons:
-    - name: github
-      url: "https://github.com/paulooorg"
     - name: linkedin
       url: "https://www.linkedin.com/in/goncalvesrpaulo"
-    # - name: twitter
-    #   url: "https://twitter.com/paulooorg"
-    # - name: spotify
-    #   url: "https://volt.fm/paulooorg"
+    - name: github
+      url: "https://github.com/paulooorg"
+    - name: twitter
+      url: "https://twitter.com/paulooorg"
+    - name: instagram # TODO: Custom icon
+      url: "https://vsco.co/paulooorg/gallery"
+    - name: spotify
+      url: "https://volt.fm/paulooorg"
+    - name: letterboxd
+      url: "https://letterboxd.com/paulooorg"
 
   analytics:
     google:
