@@ -1,0 +1,4 @@
+baseURL = 'https://pauloo.org/'
+languageCode = 'en-us'
+title = 'pauloo.org'
+theme = 'terminal'

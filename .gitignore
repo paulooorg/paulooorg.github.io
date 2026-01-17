@@ -1,0 +1,24 @@
+# Hugo default output directory
+/public/
+
+# Generated resources by Hugo (image processing, etc.)
+/resources/_gen/
+
+# Hugo lock file and build stats
+.hugo_build.lock
+hugo_stats.json
+
+# Log files
+*.log
+
+# Operating System files (Linux/Ubuntu and macOS)
+.DS_Store
+Thumbs.db
+.directory
+
+# Backup files
+*.swp
+*~
+
+# Frontend dependencies (if you use npm/yarn)
+node_modules/
